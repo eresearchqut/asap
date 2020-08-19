@@ -86,6 +86,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   mime-support \
   nodejs-legacy \
   unixodbc \
+  curl \
   && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN mkdir -p /requirements/rdrf/
