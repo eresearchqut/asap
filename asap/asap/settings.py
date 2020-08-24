@@ -21,6 +21,8 @@ PROJECT_TITLE = env.get("project_title", "e-Consent for ASAP")
 PROJECT_TITLE_LINK = "login_router"
 PROJECT_LOGO = "images/asap/logo.jpg"
 
+LOGIN_FAILURE_LIMIT = 0
+
 # Registration customisation (if any) goes here
 # REGISTRATION_CLASS = "asap.custom_registration.CustomRegistration"
 
