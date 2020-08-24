@@ -17,7 +17,7 @@ ROOT_URLCONF = '%s.urls' % FALLBACK_REGISTRY_CODE
 
 SEND_ACTIVATION_EMAIL = False
 
-PROJECT_TITLE = env.get("project_title", "e-Consent for ASAP")
+PROJECT_TITLE = "e-Consent for ASAP"
 PROJECT_TITLE_LINK = "login_router"
 PROJECT_LOGO = "images/asap/logo.jpg"
 
