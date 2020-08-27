@@ -27,3 +27,5 @@ ACCOUNT_SELF_UNLOCK_ENABLED = True
 # REGISTRATION_CLASS = "asap.custom_registration.CustomRegistration"
 
 VERSION = env.get('app_version', '%s (asap)' % asap.VERSION)
+
+LOGIN_FAILURE_LIMIT = 0
