@@ -28,3 +28,5 @@ ACCOUNT_SELF_UNLOCK_ENABLED = True
 VERSION = env.get('app_version', '%s (asap)' % asap.VERSION)
 
 LOGIN_FAILURE_LIMIT = 0
+
+CSP_FRAME_SRC = ["'self'", "https://www.youtube.com"]
