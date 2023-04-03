@@ -1,0 +1,217 @@
+EXPORT_TIME: '2023-04-03 15:56:51.831395'
+EXPORT_TYPE: REGISTRY_PLUS_CDES
+RDRF_VERSION: 1.0.0
+REGISTRY_VERSION: ''
+cde_policies: []
+cdes: []
+code: asap
+complete_fields: []
+consent_configuration:
+  consent_locked: false
+  esignature: required
+consent_rules: []
+consent_sections:
+- applicability_condition: ''
+  code: inlineExample
+  information_link: null
+  information_text: |-
+    <h1> Example with Inline Text </h1>
+
+    <h3>Lorem ipsum dolor sit amet</h3><p>, consectetur adipiscing elit. Curabitur malesuada mauris ac congue blandit. Nullam tincidunt, justo eget lacinia efficitur, justo elit semper dolor, id luctus urna enim in elit. Mauris quam sem, sodales eget ipsum quis, dictum aliquet nisl. Quisque pharetra purus vel ipsum hendrerit ultricies. Aenean blandit ipsum a interdum gravida.
+    <ul> Aenean vitae magna tortor.
+        <li>Nam dictum, lectus scelerisque faucibus cursus.</li>
+        <li>Augue elit luctus sapien, </li>
+         <li>Quis eleifend libero turpis bibendum leo. </li>
+    </ul>
+    </p>
+    <h3>Pellentesque tempor rhoncus lacinia.</h3>
+    <p>Sed tempor massa in augue lobortis iaculis. Cras semper sagittis dolor, eget vulputate purus tempor at. Aliquam erat volutpat. Curabitur eleifend nunc vel nibh sagittis, quis volutpat nisi euismod. Aliquam at ornare lectus. Integer consectetur nulla nunc, in finibus felis ultricies ac. Vestibulum hendrerit vel ante in ullamcorper. Fusce dignissim sed nulla at placerat. Phasellus aliquam interdum purus, ut ullamcorper enim posuere in. Praesent gravida lacus et massa tristique imperdiet. Curabitur suscipit nec dolor sit amet feugiat. Quisque sed orci tristique ipsum dapibus posuere. Nunc placerat imperdiet augue. Aliquam erat volutpat. Phasellus pretium nulla sit amet ultrices luctus.</p>
+
+    <p>In fermentum purus sit amet neque fringilla, quis maximus turpis porta. Aenean urna est, congue quis nibh hendrerit, semper semper velit. In hac habitasse platea dictumst. Proin sed purus mi. Duis sodales nunc a dolor placerat, id sagittis tellus congue. Etiam sollicitudin neque porttitor justo maximus, ornare viverra nisi auctor. Maecenas dapibus tellus eu ex ultricies, id vestibulum erat porta.</p>
+
+    Aliquam tellus sapien, maximus imperdiet augue et, finibus consectetur nibh. Proin cursus orci sem, ut mollis magna pharetra at. Fusce eget sodales nisi. Proin tincidunt leo eget mauris iaculis, sit amet elementum est accumsan. Curabitur eu purus finibus, eleifend nibh vitae, vestibulum urna. In est ex, commodo ac hendrerit id, sagittis sollicitudin enim. Nam vehicula vestibulum nulla, ac mattis enim tincidunt ut. Donec interdum orci ullamcorper enim dapibus, id interdum nunc gravida. Nam quis libero iaculis, rutrum tortor eget, viverra tellus. Ut luctus ante sit amet erat vestibulum, vitae pharetra metus lacinia. In ac metus sed sem vehicula ultricies eget at nulla.
+
+    Ut elit augue, molestie vel sollicitudin eu, vestibulum a eros. Maecenas accumsan, sapien in condimentum ornare, quam est condimentum orci, et mattis diam ex at arcu. Fusce id dignissim arcu, eu fermentum nulla. Aliquam bibendum quis dui sed finibus. Mauris eros orci, congue sed ligula a, volutpat blandit sapien. Nunc sagittis congue quam et dictum. Quisque a enim quis ligula placerat ornare sed semper neque. Vestibulum nunc nunc, tempor non fringilla eget, varius ut augue. Nullam nisi velit, laoreet vel tincidunt sed, tincidunt id erat.
+  questions:
+  - code: inlineExample1
+    instructions: ''
+    position: 1
+    question_label: I have read and understood the above information and consent to
+      participate (tick to agree)
+    questionnaire_label: ''
+  section_label: Inline Text Example
+  validation_rule: ''
+- applicability_condition: ''
+  code: LinkExample
+  information_link: consent_example.pdf
+  information_text: |-
+    <h1>Link to PDF Example</h1>
+
+    <p>Please click on the link above to view the consent details for the Example Study. After reading the information, if you choose to consent to participating in the Example Study, please indicate your consent below. </p>
+
+    <p>If you have any follow up questions, please do not hesitate to contact your Example Study contact.</p>
+
+    <p>If you would like to keep a hard copy of the information, you can download and print the PDF from the link above.</p>
+  questions:
+  - code: LinkExampleQ2
+    instructions: ''
+    position: 2
+    question_label: I consent to the example trial based on the information provided
+      in the document (tick box to agree)
+    questionnaire_label: ''
+  - code: LinkExampleQ1
+    instructions: ''
+    position: 4
+    question_label: I have read the linked document regarding this example trial (tick
+      box to agree)
+    questionnaire_label: ''
+  section_label: Link to PDF Example
+  validation_rule: ''
+- applicability_condition: ''
+  code: videoExample
+  information_link: null
+  information_text: |-
+    <h1>Video Example</h1>
+
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/oIH_cdNxuEA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h3>Video files can be embedded into the page if you would like the option to present the information this way</h3>
+  questions:
+  - code: videoExampleQ1
+    instructions: ''
+    position: 2
+    question_label: I have watched the above video (tick box to agree)
+    questionnaire_label: ''
+  - code: videoExampleQ2
+    instructions: ''
+    position: 3
+    question_label: I understand the information presented in the video and consent
+      to participate based on the information in the video. (tick box to agree)
+    questionnaire_label: ''
+  section_label: Video Example
+  validation_rule: ''
+context_form_groups: []
+demographic_fields:
+- field: SECTION:Next of Kin
+  groups:
+  - Patients
+  is_section: true
+  registry: asap
+  status: 2
+- field: SECTION:Patient Address
+  groups:
+  - Patients
+  is_section: true
+  registry: asap
+  status: 2
+- field: SECTION:Patient Doctor
+  groups:
+  - Patients
+  is_section: true
+  registry: asap
+  status: 2
+- field: SECTION:Patient Relative
+  groups:
+  - Patients
+  is_section: true
+  registry: asap
+  status: 2
+- field: SECTION:Patient Stage
+  groups:
+  - Patients
+  is_section: true
+  registry: asap
+  status: 2
+desc: A demo registry to display consent features to potential users.
+email_notifications:
+- description: new-patient
+  disabled: false
+  email_from: no-reply@dev.registryframework.net
+  email_templates:
+  - body: |-
+      Welcome to the ASAP trial
+
+      {{ activation_url }}
+    description: Patient Registration
+    language: en
+    subject: Welcome to the ASAP trial
+  group_recipient: null
+  recipient: '{{ patient.user.email }}'
+- description: reminder
+  disabled: false
+  email_from: no-reply@dev.registryframework.net
+  email_templates:
+  - body: |-
+      Welcome to the ASAP trial
+
+      {{ activation_url }}
+    description: Patient Registration
+    language: en
+    subject: Welcome to the ASAP trial
+  group_recipient: Patients
+  recipient: null
+form_titles: null
+forms: []
+forms_allowed_groups: {}
+generic_sections: []
+metadata_json: '{"features": ["registration"]}'
+name: e-Consent Demonstration
+patient_data_section: {}
+patient_stage_rules:
+- condition: registered
+  from_stage: null
+  id: 1
+  order: 1
+  to_stage: 1
+- condition: consented
+  from_stage: 1
+  id: 2
+  order: 1
+  to_stage: 2
+patient_stages:
+- id: 1
+  name: Informed Consent
+  next_stages:
+  - 2
+  prev_stages: []
+- id: 2
+  name: Eligibility
+  next_stages:
+  - 3
+  prev_stages:
+  - 1
+- id: 3
+  name: Pre-screening
+  next_stages:
+  - 4
+  prev_stages:
+  - 2
+- id: 4
+  name: Screening
+  next_stages:
+  - 5
+  prev_stages:
+  - 3
+- id: 5
+  name: Run-in
+  next_stages:
+  - 6
+  prev_stages:
+  - 4
+- id: 6
+  name: Trial
+  next_stages:
+  - 7
+  prev_stages:
+  - 5
+- id: 7
+  name: Follow-up
+  next_stages: []
+  prev_stages:
+  - 6
+pvgs: []
+reports: []
+splash_screen: Welcome to the eConsent Demonstration Registry
+surveys: []
+working_groups:
+- Unallocated
